@@ -32,3 +32,14 @@ Creating views in the Gold layer that join and aggregate data into a star schema
 
 **Quality Checks:**
 Implementing scripts to ensure data integrity, such as checking for duplicate keys and validating referential integrity between tables. Identified data quality issues (e.g., 12.6% null gender, 1.4% invalid dates) and resolved them during Silver-layer processing.
+
+
+## Recommendation
+**Implement Scheduled ETL Pipelines:**
+Automate data ingestion and transformation workflows using orchestration tools like Apache Airflow, dbt, or SQL Server Agent.
+
+**Add Incremental Load Support:**
+Optimize ETL scripts to support incremental data updates instead of full reloads to reduce processing time and resource usage.
+
+**Introduce Data Lineage Tracking:**
+Add metadata logging to track data flow across Bronze → Silver → Gold layers, aiding in auditability and debugging.

@@ -2,7 +2,8 @@
 
 ## Background Overview:
 This project showcases the development of a scalable SQL-based data warehouse that transforms raw operational data into a clean, business-ready analytical model. It leverages the Medallion Architecture (Bronze → Silver → Gold) to handle data ingestion, transformation, and modeling.
-**Objective:**
+
+## Objective:
 To improve business decision-making through accurate, consistent, and insightful data by implementing a robust ETL pipeline, backed by rigorous data quality checks.
 
 

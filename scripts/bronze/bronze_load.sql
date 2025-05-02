@@ -9,7 +9,6 @@ Purpose:
     - Uses `BULK INSERT` to load data from CSV files into the tables.
 
 Parameters:
-    None.
     This procedure takes no input parameters and does not return any output.
 
 Usage:

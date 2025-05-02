@@ -1,6 +1,6 @@
 # sql-data-warehouse-project
 
-## Background Overview:
+## Project Overview:
 This project showcases the development of a scalable SQL-based data warehouse that transforms raw operational data into a clean, business-ready analytical model. It leverages the Medallion Architecture (Bronze → Silver → Gold) to handle data ingestion, transformation, and modeling.
 
 ## Objective:

@@ -21,14 +21,13 @@ Business-ready data modeled into a star schema, comprising fact and dimension vi
 
 
 ## Executive Summary
-Key components of the project include:
 **Data Ingestion:** 
 Loading raw CSV files into the Bronze layer tables.
 
-**Data Transformation:** Applying SQL scripts to cleanse and standardize data in the Silver layer, including handling nulls, trimming spaces, and validating data types.
+**Data Transformation:** Applying SQL scripts to cleanse and standardize data in the Silver layer, including handling nulls, trimming spaces, and validating data types.Transformed and validated ~98% of Silver layer data using 25+ quality rules.
 
 **Data Modeling:**
-Creating views in the Gold layer that join and aggregate data into a star schema, facilitating efficient analytical queries.
+Creating views in the Gold layer that join and aggregate data into a star schema, facilitating efficient analytical queries.Ensured 100% referential integrity between dimension and fact views.
 
 **Quality Checks:**
-Implementing scripts to ensure data integrity, such as checking for duplicate keys and validating referential integrity between tables.
+Implementing scripts to ensure data integrity, such as checking for duplicate keys and validating referential integrity between tables. Identified data quality issues (e.g., 12.6% null gender, 1.4% invalid dates) and resolved them during Silver-layer processing.
